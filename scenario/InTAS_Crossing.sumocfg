@@ -1,0 +1,42 @@
+<configuration>
+	<input>
+		<net-file value="InTAS_Crossing.net.xml"/>
+		<additional-files value="InTAS_Crossing_Pedestrians.rou.xml,InTAS_Vehicles.rou.alt.xml,SaturnArena_flow.add.xml,buildings.poly.xml"/>
+	</input>
+	<output>
+		<summary-output value="InTAS_Crossing.simulation.summary.xml"/>
+		<tripinfo-output value="InTAS_Crossing.simulation.tripinfo.xml"/>
+		<statistic-output value="InTAS_Crossing.simulation.statistic.xml"/>
+	</output>
+	<time>
+		<begin value="0"/>
+		<step-length value="1"/>
+		<end value="3600"/>
+	</time>
+	<processing>
+		<route-steps value="200"/>
+		<threads value="1"/>
+		<ignore-junction-blocker value="15"/>
+	    	<time-to-teleport value="300"/>
+		<time-to-teleport.highways value="300"/>
+        	<max-depart-delay value="300"/>
+		<default.carfollowmodel value="Krauss"/>
+		<parking.maneuver value="true"/>
+		<pedestrian.model value="striping"/>
+		<pedestrian.striping.stripe-width value="0.55"/>
+		<pedestrian.striping.jamtime value="30"/>
+	</processing>
+	<routing>
+		<routing-algorithm value="dijkstra"/>		
+		<device.rerouting.probability value="0.82"/>
+		<device.rerouting.period value="300" />
+		<device.rerouting.threads value="1"/>
+		<device.rerouting.synchronize value="true"/>
+		<persontrip.transfer.car-walk value="allJunctions"/>
+	</routing>
+	<report>
+	        <verbose value="true"/>
+		<no-warnings value="true"/>
+		<log value="InTAS.simulation.log"/>
+	</report>
+</configuration>

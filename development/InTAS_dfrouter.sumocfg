@@ -1,0 +1,17 @@
+<configuration>
+	<input>
+		<net-file value="InTAS_Crossing.net.xml"/>
+		<detector-files value="SaturnArena.add.xml"/>
+		<measure-files value="flowData.xml"/>
+	</input>
+	<output>
+		<routes-output value="InTAS_Crossing.rou.xml"/>
+		<emitters-output value="vehicles.rou.xml"/>
+	</output>
+	<reports>
+		<no-warnings value="true"/>
+	</reports>
+	<random_number>
+		<seed value="111315"/>
+	</random_number>
+</configuration>

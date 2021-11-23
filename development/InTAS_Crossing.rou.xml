@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-16 14:05:57 by Eclipse SUMO dfrouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="InTAS_Crossing.net.xml"/>
+        <detector-files value="SaturnArena.add.xml"/>
+        <measure-files value="flowData.xml"/>
+    </input>
+
+    <output>
+        <routes-output value="InTAS_Crossing.rou.xml"/>
+        <emitters-output value="vehicles.rou.xml"/>
+    </output>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="111315"/>
+    </random_number>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <route id="354967545#0.45_to_141058765#1" edges="354967545#0.45 141058765#1"/>
+    <route id="354967545#0.45_to_-25188983#0" edges="354967545#0.45 -25188983#0"/>
+    <route id="354967545#0.45_to_-266887590#0" edges="354967545#0.45 -266887590#0"/>
+
+    <route id="266887590#0_to_141058765#1" edges="266887590#0 141058765#1"/>
+    <route id="266887590#0_to_-25188983#0" edges="266887590#0 -25188983#0"/>
+    <route id="266887590#0_to_4268816#1" edges="266887590#0 4268816#1"/>
+
+    <route id="354967544#1.11_to_-25188983#0" edges="354967544#1.11 -25188983#0"/>
+    <route id="354967544#1.11_to_4268816#1" edges="354967544#1.11 4268816#1"/>
+    <route id="354967544#1.11_to_-266887590#0" edges="354967544#1.11 -266887590#0"/>
+
+    <route id="25188983#0_to_141058765#1" edges="25188983#0 141058765#1"/>
+    <route id="25188983#0_to_4268816#1" edges="25188983#0 4268816#1"/>
+    <route id="25188983#0_to_-266887590#0" edges="25188983#0 -266887590#0"/>
+
+</routes>

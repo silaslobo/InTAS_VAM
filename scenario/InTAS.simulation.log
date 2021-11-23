@@ -1,0 +1,30 @@
+Loading net-file from 'InTAS_Crossing.net.xml' ... done (3ms).
+Loading additional-files from 'InTAS_Crossing_Pedestrians.rou.xml' ... done (109ms).
+Loading additional-files from 'InTAS_Vehicles.rou.alt.xml' ... done (224ms).
+Loading additional-files from 'SaturnArena_flow.add.xml' ... done (11ms).
+Loading additional-files from 'buildings.poly.xml' ... done (546ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 27.06s
+ Real time factor: 133.023
+ UPS: 5602.446144
+ UPS-Persons: 13516.941950
+Vehicles: 
+ Inserted: 1615 (Loaded: 3386)
+ Running: 49
+ Waiting: 288
+Teleports: 2 (Collisions: 2)
+Persons: 
+ Inserted: 4500
+ Running: 89
+ Jammed: 603
+
+DijkstraRouter answered 100365 queries and explored 23.00 edges on average.
+DijkstraRouter spent 0.24s answering queries (0.00ms on average).
+DijkstraRouter answered 4499 queries and explored 23.86 edges on average.
+DijkstraRouter spent 0.03s answering queries (0.01ms on average).
+DijkstraRouter answered 4401 queries and explored 2.96 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.00ms on average).

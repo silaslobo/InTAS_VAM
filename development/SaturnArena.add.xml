@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-11 11:26:38 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="InTAS_Crossing.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="InTAS_Crossing.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/lobo/Repository/InTAS_VAM/SaturnArena.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="SaturnArena1" lane="354967544#1.11_1" pos="5.58" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena10" lane="-25188983#0_2" pos="35.40" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena11" lane="-25188983#0_1" pos="35.47" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena12" lane="354967545#0.45_1" pos="3.16" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena13" lane="354967545#0.45_2" pos="3.41" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena14" lane="354967545#0.45_3" pos="3.08" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena15" lane="354967545#0.45_4" pos="2.97" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena16" lane="4268816#1_2" pos="41.86" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena17" lane="4268816#1_1" pos="41.89" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena18" lane="266887590#0_1" pos="3.31" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena19" lane="266887590#0_2" pos="3.55" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena2" lane="354967544#1.11_2" pos="5.55" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena20" lane="266887590#0_3" pos="3.54" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena21" lane="-266887590#0_2" pos="61.85" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena22" lane="-266887590#0_1" pos="61.83" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena3" lane="354967544#1.11_3" pos="5.44" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena4" lane="354967544#1.11_4" pos="5.41" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena5" lane="141058765#1_2" pos="23.30" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena6" lane="141058765#1_1" pos="23.34" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena7" lane="25188983#0_1" pos="3.95" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena8" lane="25188983#0_2" pos="3.94" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+    <e1Detector id="SaturnArena9" lane="25188983#0_3" pos="4.05" freq="1.00" file="SaturnArena.xml" friendlyPos="1"/>
+</additional>

@@ -3,11 +3,6 @@
 		<net-file value="InTAS_Crossing.net.xml"/>
 		<additional-files value="InTAS_Crossing_Pedestrians.rou.xml,InTAS_Vehicles.rou.alt.xml,SaturnArena_flow.add.xml,buildings.poly.xml"/>
 	</input>
-	<output>
-		<summary-output value="InTAS_Crossing.simulation.summary.xml"/>
-		<tripinfo-output value="InTAS_Crossing.simulation.tripinfo.xml"/>
-		<statistic-output value="InTAS_Crossing.simulation.statistic.xml"/>
-	</output>
 	<time>
 		<begin value="0"/>
 		<step-length value="1"/>
@@ -37,6 +32,5 @@
 	<report>
 	        <verbose value="true"/>
 		<no-warnings value="true"/>
-		<log value="InTAS.simulation.log"/>
 	</report>
 </configuration>
